@@ -5,6 +5,5 @@ public class Product {
 	String name;
 	float price;
 	int quantity;
-	int location;
-	String shelves;
+	int shelfNo; 
 }

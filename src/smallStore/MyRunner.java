@@ -33,7 +33,7 @@ public class MyRunner {
 		Product[] products = {p1, p2, p3, p4};
 		System.out.println("What do you want to do:\n1. Buy\n2. Search: ");
 		Scanner s = new Scanner(System.in);
-		int choice = s.nextInt();
+		int choice = s.nextInt(); // add line 66: s.nextLine(); to read string after read int
 		
 		switch(choice) {
 		case 1:
@@ -66,21 +66,19 @@ public class MyRunner {
 			s.nextLine();
 			System.out.println("Enter product name: " );
 			String pName = s.nextLine();
-			for(Product a: products) {
+			
+			//for(Product a: products) {
+			for(int i =0; i<products.length; i++) {
+				Product a = products[i];
 				if(a.name.equalsIgnoreCase(pName)) {
-					System.out.println("Product name: "+ a.name + "\nPrice: "+a.price +"\nlocation: "+a.location+"\nshelves: "+a.shelves);
+					System.out.println("Product name: "+a.name  + "\nPrice: "+a.price +"\nlocation: " +a.shelfNo);
 				}
 			}
 			break;
-			
-		default:
-			
+		
+		default: 
 			System.out.println("Invalid choice!");
-			
-			
-		}
-		
-		
-	}
-
+			 
+		} 
+	} 
 }
