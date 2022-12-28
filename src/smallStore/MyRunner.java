@@ -71,12 +71,11 @@ public class MyRunner {
 					System.out.println("Product name: "+ a.name + "\nPrice: "+a.price +"\nlocation: "+a.location);
 				}
 			}
-			
 			break;
 			
 		default:
 			
-			System.out.println("Invalid choice");
+			System.out.println("Invalid choice!");
 			
 			
 		}
