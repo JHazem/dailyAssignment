@@ -54,7 +54,7 @@ public class MyRunner {
 				Product temp = products[select-1];
 				System.out.println("Enter quantity: ");
 				int q = s.nextInt();
-				invoice+= "Name: "+temp.name+ ", Unit Price: "+temp.price +", Quntity: "+q+", Total; "+temp.quantity;
+				invoice+= ("Name: "+temp.name+ ", Unit Price: "+temp.price +", Quntity: "+q+", Total; "+temp.quantity);
 				totalPrice+=q*temp.price;
 				
 			}

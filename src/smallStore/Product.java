@@ -6,4 +6,5 @@ public class Product {
 	float price;
 	int quantity;
 	int location;
+	String shelves;
 }
