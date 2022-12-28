@@ -68,7 +68,7 @@ public class MyRunner {
 			String pName = s.nextLine();
 			for(Product a: products) {
 				if(a.name.equalsIgnoreCase(pName)) {
-					System.out.println("Product name: "+ a.name + "\nPrice: "+a.price +"\nlocation: "+a.location);
+					System.out.println("Product name: "+ a.name + "\nPrice: "+a.price +"\nlocation: "+a.location+"\nshelves: "+a.shelves);
 				}
 			}
 			break;
