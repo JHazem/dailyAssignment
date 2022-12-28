@@ -1,4 +1,4 @@
-package smaleStore;
+package smallStore;
 
 import java.util.Scanner;
 

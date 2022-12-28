@@ -1,4 +1,4 @@
-package smaleStore;
+package smallStore;
 
 public class Product {
 	int id;
