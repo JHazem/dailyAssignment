@@ -30,6 +30,8 @@ public class MainRunner {
 			System.out.println("Grade: " + b.getStaudentGrade());
 		}
 		  
+		
+		boolean result = s1.equals(s2);
 	}
 
 }
